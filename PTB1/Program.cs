@@ -11,7 +11,7 @@ namespace PTB1
     {
         static void Main(string[] args)
         {
-            Console.Write("Nhap he so a: ");
+            Console.Write("Nhap he so a:   ");
             double a = double.Parse(Console.ReadLine());
             Console.Write("Nhap he so b: ");
             double b = double.Parse(Console.ReadLine());
