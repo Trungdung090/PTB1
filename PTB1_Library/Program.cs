@@ -20,7 +20,7 @@ namespace PTB1_Library
             tinh.b = b;
             double x = tinh.Tinhtoan();
 
-            Console.WriteLine("Nghiem cua phuong trinh la: x = " + x);
+            Console.WriteLine("Nghiem cua phuong trinh = " + x);
 
         }
     }

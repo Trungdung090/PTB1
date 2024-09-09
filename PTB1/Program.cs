@@ -4,7 +4,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 
 //Họ và tên: Đặng Trung Dũng
-//Bắt đầu làm bài tập: Giải PT bậc 1
+//Bắt đầu làm bài tập: Giải Phương Trình Bậc 1
 namespace PTB1
 {
     internal class Program
@@ -29,7 +29,7 @@ namespace PTB1
             else
             {
                 double x = -b / a;
-                Console.WriteLine("Nghiem cua phuong trinh la: x = " + x);
+                Console.WriteLine("Nghiem cua phuong trinh = " + x);
             }
             Console.ReadLine();
         }

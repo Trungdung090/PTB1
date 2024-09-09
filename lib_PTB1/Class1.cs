@@ -10,7 +10,7 @@ namespace lib_PTB1
         public double x {  get; private set; }
         public double Tinhtoan()
         {            
-                double x = -b / a;
+            double x = -b / a;
             return x;         
         }
     }
