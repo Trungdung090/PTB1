@@ -14,13 +14,15 @@ namespace WebApplication1
 
         }
 
-        protected void btnSolve_Click(object sender, EventArgs e)
+        protected void btn_Tinh_Click(object sender, EventArgs e)
         {
             try
             {
+                // Lấy giá trị a và b từ TextBox
                 double a = Convert.ToDouble(txt_a.Text);
                 double b = Convert.ToDouble(txt_b.Text);
 
+                // Kiểm tra nếu a = 0
                 if (a == 0)
                 {
                     if (b == 0)

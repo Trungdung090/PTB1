@@ -10,10 +10,10 @@
         <div>
             <h2>Giải phương trình bậc 1: ax + b = 0</h2>
             <label for="txtA">Nhập a:</label>
-            <asp:TextBox ID="txt_a" runat="server"></asp:TextBox><br /><br />
+            <asp:TextBox ID="txt_a" runat="server" Height="23px"></asp:TextBox><br /><br />
             <label for="txtB">Nhập b:</label>
-            <asp:TextBox ID="txt_b" runat="server"></asp:TextBox><br /><br />
-            <asp:Button ID="btn_Tinh" runat="server" Text="Tính" OnClick="btnSolve_Click" Width="64px" /><br /><br />
+            <asp:TextBox ID="txt_b" runat="server" Height="23px" Width="160px"></asp:TextBox><br /><br />
+            <asp:Button ID="btn_Tinh" runat="server" Text="Tính"  Width="62px" OnClick="btn_Tinh_Click" Height="29px" /><br /><br />
             <asp:Label ID="lbl_KQ" runat="server"></asp:Label>
         </div>
     </form>
