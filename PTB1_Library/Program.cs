@@ -8,7 +8,7 @@ namespace PTB1_Library
     {
         static void Main(string[] args)
         {
-            double a, b, x;
+            double a, b;
             Console.Write("Nhap he so a: ");
             a = double.Parse(Console.ReadLine());
             Console.Write("Nhap he so b: ");
@@ -18,10 +18,9 @@ namespace PTB1_Library
             tinh = new lib_PTB1.Tinh();
             tinh.a = a; 
             tinh.b = b;
-            tinh.Tinhtoan();
-            double tinh_toan = tinh.tinh_toan;
+            double x = tinh.Tinhtoan();
 
-            Console.WriteLine("Nghiem cua phuong trinh la: x = {x}");
+            Console.WriteLine("Nghiem cua phuong trinh la: x = " + x);
 
         }
     }

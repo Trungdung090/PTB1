@@ -31,6 +31,7 @@ namespace PTB1
                 double x = -b / a;
                 Console.WriteLine("Nghiem cua phuong trinh la: x = " + x);
             }
+            Console.ReadLine();
         }
     }
 }
