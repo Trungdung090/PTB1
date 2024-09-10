@@ -8,8 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="container">
-            <div class="content">
+        <div class="cangiua">
+            <div class="nhap">
                 <div>
             <h2>Giải phương trình bậc 1: ax + b = 0</h2>
             <label for="txt_a">Nhập a:</label>
