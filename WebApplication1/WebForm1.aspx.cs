@@ -18,11 +18,9 @@ namespace WebApplication1
         {
             try
             {
-                // Lấy giá trị a và b từ TextBox
                 double a = Convert.ToDouble(txt_a.Text);
                 double b = Convert.ToDouble(txt_b.Text);
 
-                // Kiểm tra nếu a = 0
                 if (a == 0)
                 {
                     if (b == 0)
@@ -37,7 +35,7 @@ namespace WebApplication1
                 else
                 {
                     double x = -b / a;
-                    lbl_KQ.Text = "Nghiệm của phương trình = " + x.ToString();
+                    lbl_KQ.Text = "Nghiệm của phương trình x = " + x.ToString();
                 }
             }
             catch (Exception ex)

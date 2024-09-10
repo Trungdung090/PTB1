@@ -29,7 +29,7 @@ namespace PTB1
             else
             {
                 double x = -b / a;
-                Console.WriteLine("Nghiem cua phuong trinh = " + x);
+                Console.WriteLine("Nghiem cua phuong trinh x = " + x);
             }
             Console.ReadLine();
         }
