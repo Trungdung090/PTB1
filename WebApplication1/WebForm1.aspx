@@ -8,15 +8,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="cangiua">
-            <div class="nhap">
+        <div class="container">
+            <div class="content">
                 <div>
             <h2>Giải phương trình bậc 1: ax + b = 0</h2>
             <label for="txt_a">Nhập a:</label>
-            <asp:TextBox ID="txt_a" runat="server" Height="24px"></asp:TextBox><br /><br />
+            <asp:TextBox ID="txt_a" runat="server" Height="24px" Width="310px"></asp:TextBox><br /><br />
             <label for="txt_b">Nhập b:</label>
-            <asp:TextBox ID="txt_b" runat="server" Height="24px" Width="160px"></asp:TextBox><br /><br />
-            <asp:Button ID="btn_Tinh" runat="server" Text="Tính"  Width="62px" OnClick="btn_Tinh_Click" Height="29px" /><br /><br />
+            <asp:TextBox ID="txt_b" runat="server" Height="24px" Width="310px"></asp:TextBox><br /><br />
+            <asp:Button ID="btn_Tinh" runat="server" Text="Tính"  Width="69px" OnClick="btn_Tinh_Click" Height="29px" /><br /><br />
             <asp:Label ID="lbl_KQ" runat="server"></asp:Label>
                 </div>
             </div>
